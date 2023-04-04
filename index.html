@@ -1,59 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Projets Minecraft</title>
-	<style>
-		body {
-	background-color: #f0f0f0;
-	font-family: Arial, sans-serif;
-}
-
-h1 {
-	color: #333;
-	font-size: 36px;
-	margin-top: 50px;
-}
-
-h2 {
-	color: #cedf0b;
-	font-size: 24px;
-	margin-top: 30px;
-}
-
-ul {
-	list-style-type: none;
-	margin-left: 0;
-	padding-left: 0;
-}
-
-li {
-	margin-bottom: 10px;
-}
-
-img {
-	max-width: 100%;
-	height: auto;
-	margin-bottom: 10px;
-}
-	</style>
-</head>
-<body>
-
-	<div>
-		<h2>Catégorie 1</h2>
-		<ul>
-			<li>Projet 1</li>
-			<li>Projet 2</li>
-		</ul>
-	</div>
-
-	<div>
-		<h2>Catégorie 2</h2>
-		<ul>
-			<li>Projet 3</li>
-			<li>Projet 4</li>
-		</ul>
-	</div>
-
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Minecraft Projects</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      h1 {
+        margin: 0;
+      }
+      main {
+        padding: 20px;
+      }
+      .project {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        padding: 20px;
+      }
+      .project h2 {
+        margin-top: 0;
+      }
+      .project img {
+        max-width: 100%;
+        height: auto;
+      }
+      .project p {
+        margin-top: 0;
+      }
+      .project a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .project a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Minecraft Projects</h1>
+    </header>
+    <main>
+        <h1>Data Packs :</h1>
+      <div class="project">
+        <h2>Mod Minecraft 1</h2>
+        <img src="sc.png" alt="Soul Catcher">
+        <p>Ce mod ajoute de nouveaux éléments au jeu, tels que des blocs, des objets et des mobs. Il est compatible avec Minecraft 1.16 et nécessite Forge.</p>
+        <a href="https://github.com/Lord-Eler/The_Soul_Catcher_Data_Pack/raw/main/The_Soul_Catcher_Data_Pack.zip">Télécharger le mod</a>
+      </div>
+      <div class="project">
+        <h2>Mod Minecraft 2</h2>
+        <img src="nt.png" alt="Mod Minecraft 2">
+        <p>Ce mod ajoute de nouvelles fonctionnalités au jeu, telles que des compétences et des sorts. Il est compatible avec Minecraft 1.17 et nécessite Fabric.</p>
+        <a href="mod2.zip">Télécharger le mod</a>
+      </div>
+      <div class="project">
+        <h2>Mod Minecraft 3</h2>
+        <img src="mod3.jpg" alt="Mod Minecraft 3">
+        <p>Ce mod ajoute de nouvelles dimensions au jeu, chacune avec ses propres biomes et créatures. Il est compatible avec Minecraft 1.16 et nécessite Rift.</p>
+        <a href="mod3.zip">Télécharger le mod</a>
+      </div>
+    </main>
+  </body>
 </html>
